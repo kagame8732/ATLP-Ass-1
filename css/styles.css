@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+font-family: 'Inter', sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+  
+}
+.heading{
+    color: #101214;
+    display:block;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 700;
+}
+.heading-position{
+    color: #101214;
+    display: block;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+.logo-img{
+    width: 50%;
+    height:auto;
+    border-radius: 50%;
+    font-size: 15px;
+}
