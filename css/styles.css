@@ -22,14 +22,14 @@ body {
   color: #101214;
   display: block;
   text-transform: capitalize;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 700;
 }
 .heading-position {
   color: #101214;
   display: block;
-  font-weight: 100;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 23px;
   margin-top:1.5rem ;
 }
 .logo-img {
