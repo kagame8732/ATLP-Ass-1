@@ -14,24 +14,28 @@ body {
   height: auto;
   margin-bottom: 1rem;
   width: 100%;
-  top:0;
+  top: 0;
   left: 0;
   position: fixed;
   background-color: #eceff1;
   box-shadow: 2px 2px 4px rgba(32, 29, 29, 0.8);
 }
 @media screen and (max-width: 971px) {
-  .header{
-    /* background-color: aqua; */
+  .header {
     display: grid;
     grid-template-columns: auto;
+  padding-bottom 15rem;
   }
-  ..heading{
+  .heading {
     font-weight: 400;
-      font-size: 10px;
+    font-size: 10px;
+    place-items: center;
   }
-  ..logo-img{
- display: none;
+  .logo-img {
+    place-items: center;
+    margin-left: 2rem;
+  }
+  .experience{
   }
 }
 
@@ -48,7 +52,7 @@ body {
   display: block;
   font-weight: 500;
   font-size: 20px;
-  margin-top:1.5rem ;
+  margin-top: 1.5rem;
 }
 .logo-img {
   width: 30%;
@@ -161,7 +165,11 @@ body {
   padding: 2px;
   margin-bottom: 5px;
 }
-.tech-option,.p-skills,.mail,.linkedin,.dri-profile {
+.tech-option,
+.p-skills,
+.mail,
+.linkedin,
+.dri-profile {
   font-size: 15px;
   text-transform: capitalize;
   padding: 2px;
