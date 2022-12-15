@@ -19,7 +19,20 @@ body {
   position: fixed;
   background-color: #eceff1;
   box-shadow: 2px 2px 4px rgba(32, 29, 29, 0.8);
-
+}
+@media screen and (max-width: 971px) {
+  .header{
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: auto;
+  }
+  ..heading{
+    font-weight: 400;
+      font-size: 10px;
+  }
+  ..logo-img{
+ display: none;
+  }
 }
 
 .heading {
