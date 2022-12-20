@@ -4,5 +4,5 @@ const getNewColor = () => {
   for (let i = 0; i < 6; i++) {
     color = color + symbol[Math.floor(Math.random() * 16)];
   }
-  document.body.style.background = color;
+  document.getElementById("heading-position").style.color = color;
 };
